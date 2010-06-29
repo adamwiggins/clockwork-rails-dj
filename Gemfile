@@ -8,6 +8,9 @@ gem 'rails', '3.0.0.beta4'
 gem 'sqlite3-ruby', :require => 'sqlite3'
 
 gem 'delayed_job', '2.0.3'
+gem 'rest-client', '1.5.1', :require => 'restclient'
+gem 'json_pure', '1.4.3', :require => 'json'
+gem 'clockwork', '0.2.0'
 
 # Use unicorn as the web server
 # gem 'unicorn'
